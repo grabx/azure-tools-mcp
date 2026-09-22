@@ -7,6 +7,8 @@ A lightweight [Model Context Protocol (MCP)](https://modelcontextprotocol.io) se
 | Tool | Description |
 | --- | --- |
 | `azure_sub_to_tenant` | Looks up Azure tenant details from an Azure subscription ID (UUID). |
+| `azure_tenant_id_info` | Looks up Azure tenant details from a tenant ID (UUID). |
+| `azure_tenant_name_info` | Looks up Azure tenant details from a tenant domain name. |
 
 The server also exposes a `GET /health` endpoint used for Kubernetes readiness/liveness probes.
 
